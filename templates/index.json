@@ -41,10 +41,49 @@
       "settings": {
         "collection": "weekly-picks"
       }
+    },
+    "1646002060f63fd5aa": {
+      "type": "collection-grid",
+      "blocks": {
+        "9c62043b-ab6c-4821-82b5-8945b714eacf": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "89b5a83c-efc9-48c4-a65b-f0ff9ff5d84c": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "f620c174-7696-439d-9110-6051bdfb92a6": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "d92aae68-fd17-4788-aacb-aac6cbb860f9": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim"
+          }
+        }
+      },
+      "block_order": [
+        "9c62043b-ab6c-4821-82b5-8945b714eacf",
+        "89b5a83c-efc9-48c4-a65b-f0ff9ff5d84c",
+        "f620c174-7696-439d-9110-6051bdfb92a6",
+        "d92aae68-fd17-4788-aacb-aac6cbb860f9"
+      ],
+      "settings": {
+        "header": "take a look around"
+      }
     }
   },
   "order": [
     "164563563851201a4c",
-    "1645979096b5c153fa"
+    "1645979096b5c153fa",
+    "1646002060f63fd5aa"
   ]
 }
