@@ -8,6 +8,7 @@
 
     <div class="collection-grid__grid-ctn">
         {% for block in section.blocks %}
+
         <a class="collection-grid__grid-item" href="{{ block.settings.collection.url }}">
             <div class="collection-grid__img-ctn">
                 <img src="{{ block.settings.collection.image | img_url: 'Large'}} " alt=""/>    
@@ -16,6 +17,7 @@
                 {{ block.settings.collection.title }}
             </h3>
         </a>
+        
         {% endfor %}
     </div>
 

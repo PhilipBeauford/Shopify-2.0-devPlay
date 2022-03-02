@@ -5,6 +5,7 @@
   }
 }
 
+
 @media screen and (min-width: 750px) {
   .collection .title-wrapper-with-link--no-heading {
     margin-top: calc(6rem + var(--page-width-margin));
@@ -16,6 +17,7 @@
     margin-bottom: 1.5rem;
   }
 }
+
 
 .collection .loading-overlay {
   top: 0;
