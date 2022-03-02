@@ -52,7 +52,9 @@
 }
 
 .card-information {
-  text-align: var(--card-text-alignment);
+  text-align: center;
+  font-size: 17px;
+  font-family: var(--font-body-family);
 }
 
 .card__media,
