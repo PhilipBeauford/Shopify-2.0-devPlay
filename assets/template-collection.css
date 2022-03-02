@@ -49,3 +49,18 @@
 .collection__view-all {
   margin-top: 2rem;
 }
+
+.line-ctn {
+  position: relative;
+}
+
+.line-plz:before {
+content: "";
+position: absolute;
+background-color: rgb(var(--color-foreground));
+width: 100%;
+height: 2px;
+left: 0;
+top: 20px;
+z-index: -1;
+}
