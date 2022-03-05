@@ -476,6 +476,27 @@
                 <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
+            {%- when 'social' -%}
+              <ul class="social-sharing">
+                <li>
+                  <a href="{{ settings.social_facebook_link }}">
+                    {% render "icon-facebook.liquid" %}
+                    <span class="social-sharing__title">Facebook</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="{{ settings.social_pinterest_link }}">
+                    {% render "icon-pinterest.liquid" %}
+                    <span class="social-sharing__title">Pin It</span>
+                  </a>
+                </li>
+                <li>
+                  <a href= "{{ settings.social_twitter_link }}">
+                    {% render "icon-twitter.liquid" %}
+                    <span class="social-sharing__title">Tweet</span>
+                  </a>
+                </li>
+              </ul>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -642,6 +663,13 @@
   }
 </script>
 
+
+
+
+
+
+
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
@@ -770,6 +798,17 @@
           "id": "custom_liquid",
           "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
           "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "social"
         }
       ]
     },

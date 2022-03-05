@@ -72,6 +72,11 @@
             "content": "",
             "page": ""
           }
+        },
+        "118add44-aed8-4104-a8a4-802dc2987117": {
+          "type": "social",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -84,7 +89,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3"
+        "collapsible-row-3",
+        "118add44-aed8-4104-a8a4-802dc2987117"
       ],
       "settings": {
         "enable_sticky_info": true,
